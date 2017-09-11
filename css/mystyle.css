@@ -1,0 +1,56 @@
+body{
+    background-image: url("../images/1.jpg");
+}
+.images{
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    text-align: center;
+}
+.div-sizes{
+    width: 70px !important;
+    height: 70px !important;
+    text-align: center;
+    float: left;
+}
+
+.white{
+    background-image:url("../images/classic-square-white.png");
+    width:70px;
+    height:70px;
+}
+.cross{
+    box-shadow: inset 0px 0px 30px 10px darkred;
+}
+
+.black{
+    background-image:url("../images/classic-piece-black.png");
+    width:70px;
+    height:70px;
+}
+
+.path{
+    box-shadow: inset 0px 0px 30px 10px #d58512;
+}
+
+div > div > div > div > div > div{
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+
+#Chessboard{
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+
+.cross-piece {
+    position: relative;
+    /*background-color: #ac2925;*/
+    width: 60px !important;
+    height: 60px !important;
+}
