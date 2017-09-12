@@ -1,1 +1,694 @@
-var _0x2880=["\x61","\x62","\x63","\x64","\x65","\x66","\x67","\x68","\x31","\x32","\x33","\x34","\x35","\x36","\x37","\x38","\x62\x2D\x6C\x2D\x72","\x62\x2D\x6C\x2D\x6B","\x62\x2D\x6C\x2D\x62","\x62\x2D\x61\x2D\x71\x75\x65\x65\x6E","\x62\x2D\x61\x2D\x6B\x69\x6E\x67","\x62\x2D\x72\x2D\x62","\x62\x2D\x72\x2D\x6B","\x62\x2D\x72\x2D\x72","\x62\x2D\x31\x2D\x70","\x62\x2D\x32\x2D\x70","\x62\x2D\x33\x2D\x70","\x62\x2D\x34\x2D\x70","\x62\x2D\x35\x2D\x70","\x62\x2D\x36\x2D\x70","\x62\x2D\x37\x2D\x70","\x62\x2D\x38\x2D\x70","\x77\x2D\x31\x2D\x70","\x77\x2D\x32\x2D\x70","\x77\x2D\x33\x2D\x70","\x77\x2D\x34\x2D\x70","\x77\x2D\x35\x2D\x70","\x77\x2D\x36\x2D\x70","\x77\x2D\x37\x2D\x70","\x77\x2D\x38\x2D\x70","\x77\x2D\x6C\x2D\x72","\x77\x2D\x6C\x2D\x6B","\x77\x2D\x6C\x2D\x62","\x77\x2D\x61\x2D\x6B\x69\x6E\x67","\x77\x2D\x61\x2D\x71\x75\x65\x65\x6E","\x77\x2D\x72\x2D\x62","\x77\x2D\x72\x2D\x6B","\x77\x2D\x72\x2D\x72","\x63\x72\x31","\x63\x72\x32","\x63\x72\x33","\x63\x72\x34","\x63\x72\x35","\x63\x72\x36","\x63\x72\x37","\x63\x72\x38","\x63\x72\x39","\x63\x72\x31\x30","\x63\x72\x31\x31","\x63\x72\x31\x32","\x63\x72\x31\x33","\x63\x72\x31\x34","\x63\x72\x31\x35","\x63\x72\x31\x37","\x63\x72\x31\x38","\x63\x72\x31\x39","\x63\x72\x32\x30","\x63\x72\x32\x31","\x63\x72\x32\x32","\x63\x72\x32\x33","\x63\x72\x32\x34","\x63\x72\x32\x35","\x63\x72\x32\x36","\x63\x72\x32\x37","\x63\x72\x32\x38","\x63\x72\x32\x39","\x63\x72\x33\x30","\x63\x72\x33\x31","\x77","\x6C\x65\x6E\x67\x74\x68","\x72\x65\x61\x64\x79","","\x69\x64","\x61\x74\x74\x72","\x70\x61\x72\x65\x6E\x74","\x74\x65\x61\x6D","\x63\x72\x6F\x73\x73","\x68\x61\x73\x43\x6C\x61\x73\x73","\x23","\x6B\x69\x6E\x67","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x61\x70\x70\x65\x6E\x64\x54\x6F","\x63\x68\x65\x73\x73\x6D\x61\x6E\x49\x64","\x63\x68\x65\x73\x73\x6D\x61\x6E\x50\x61\x72\x65\x6E\x74\x49\x64","\x47\x61\x6D\x65\x20\x4F\x76\x65\x72","\x63\x6C\x69\x63\x6B","\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76","\x2D","\x73\x70\x6C\x69\x74","\x73\x70\x6C\x69\x63\x65","\x72\x6F\x74\x61\x74\x65","\x74\x6F\x67\x67\x6C\x65\x43\x6C\x61\x73\x73","\x63\x68\x69\x6C\x64\x72\x65\x6E","\x70\x61\x74\x68","\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76\x20\x3E\x20\x64\x69\x76","\x63\x68\x65\x73\x73\x6D\x61\x6E","\x70\x61\x77\x6E","\x70","\x72\x6F\x6F\x6B","\x72","\x62\x69\x73\x68\x6F\x70","\x6B\x6E\x69\x67\x68\x74","\x6B","\x71\x75\x65\x65\x6E","\x71","\x57\x68\x69\x74\x65\x20\x54\x65\x61\x6D\x27\x73\x20\x54\x75\x72\x6E\x21","\x42\x6C\x61\x63\x6B\x20\x54\x65\x61\x6D\x27\x73\x20\x54\x75\x72\x6E","\x63\x68\x65\x63\x6B","\x73\x75\x62\x73\x74\x72","\x61\x64\x64\x43\x6C\x61\x73\x73","\x70\x75\x73\x68","\x61\x62\x73","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73"];var checkMateStatus=false;var divIds=[];var col=[_0x2880[0],_0x2880[1],_0x2880[2],_0x2880[3],_0x2880[4],_0x2880[5],_0x2880[6],_0x2880[7]];var row=[_0x2880[8],_0x2880[9],_0x2880[10],_0x2880[11],_0x2880[12],_0x2880[13],_0x2880[14],_0x2880[15]];var chessPiecesId=[_0x2880[16],_0x2880[17],_0x2880[18],_0x2880[19],_0x2880[20],_0x2880[21],_0x2880[22],_0x2880[23],_0x2880[24],_0x2880[25],_0x2880[26],_0x2880[27],_0x2880[28],_0x2880[29],_0x2880[30],_0x2880[31],_0x2880[32],_0x2880[33],_0x2880[34],_0x2880[35],_0x2880[36],_0x2880[37],_0x2880[38],_0x2880[39],_0x2880[40],_0x2880[41],_0x2880[42],_0x2880[43],_0x2880[44],_0x2880[45],_0x2880[46],_0x2880[47]];var crossDivId=[_0x2880[48],_0x2880[49],_0x2880[50],_0x2880[51],_0x2880[52],_0x2880[53],_0x2880[54],_0x2880[55],_0x2880[56],_0x2880[57],_0x2880[58],_0x2880[59],_0x2880[60],_0x2880[61],_0x2880[62],_0x2880[63],_0x2880[64],_0x2880[65],_0x2880[66],_0x2880[67],_0x2880[68],_0x2880[69],_0x2880[70],_0x2880[71],_0x2880[72],_0x2880[73],_0x2880[74],_0x2880[75],_0x2880[76],_0x2880[77]];var turn=_0x2880[78];$(document)[_0x2880[80]](function(){var _0x2e7dx8=0;for(var _0x2e7dx9=0;_0x2e7dx9< col[_0x2880[79]];_0x2e7dx9++){for(var _0x2e7dxa=0;_0x2e7dxa< row[_0x2880[79]];_0x2e7dxa++){var _0x2e7dxb=col[_0x2e7dx9]+ row[_0x2e7dxa];divIds[_0x2e7dx8]= _0x2e7dxb;_0x2e7dx8++}}});var ChessObject={team:_0x2880[81],chessmanId:_0x2880[81],chessmanParentIdv:_0x2880[81]};$(_0x2880[96])[_0x2880[95]](function(){var _0x2e7dxd=$(this)[_0x2880[83]](_0x2880[82]);var _0x2e7dxe=$(this)[_0x2880[84]]()[_0x2880[83]](_0x2880[82]);var _0x2e7dxf=checkTeam(_0x2e7dxd);if(!checkMateStatus){if((checkCross()[_0x2880[79]]> 0)&& (_0x2e7dxf!== ChessObject[_0x2880[85]])){var _0x2e7dx10=$(this)[_0x2880[84]]()[_0x2880[83]](_0x2880[82]);var _0x2e7dx11=$(this)[_0x2880[83]](_0x2880[82]);var _0x2e7dxf=checkTeam(_0x2e7dx11);if($(_0x2880[88]+ _0x2e7dx10)[_0x2880[87]](_0x2880[86])&& (!_0x2e7dx11[_0x2880[90]](_0x2880[89]))){moveToCrossDivs(_0x2e7dxd,_0x2e7dxf);crossedChessPiece(_0x2e7dx11);$(_0x2880[88]+ ChessObject[_0x2880[92]])[_0x2880[91]](_0x2880[88]+ _0x2e7dx10);moveToCrossDivs(_0x2e7dxd,_0x2e7dxf);removeCross();removePath();findTurn()}}else {removeCross();removePath();ChessObject[_0x2880[92]]= _0x2e7dxd;ChessObject[_0x2880[93]]= _0x2e7dxe;ChessObject[_0x2880[85]]= checkTeam(ChessObject[_0x2880[92]]);findName(ChessObject[_0x2880[92]])}}else {alert(_0x2880[94])}});function checkTeam(_0x2e7dx13){var _0x2e7dx14=_0x2e7dx13[_0x2880[98]](_0x2880[97]);switch(_0x2e7dx14[0]){case _0x2880[1]:return _0x2880[1];case _0x2880[78]:return _0x2880[78]}}function crossedChessPiece(_0x2e7dx13){for(var _0x2e7dx9=0;_0x2e7dx9< chessPiecesId[_0x2880[79]];_0x2e7dx9++){if(_0x2e7dx13=== chessPiecesId[_0x2e7dx9]){chessPiecesId[_0x2880[99]](_0x2e7dx9,1);if(chessPiecesId[_0x2e7dx9][_0x2880[90]](_0x2880[78])){$(_0x2880[88]+ _0x2e7dx13)[_0x2880[101]](_0x2880[100])};break}}}function moveToCrossDivs(_0x2e7dx13,_0x2e7dxf){if(_0x2e7dxf=== _0x2880[78]){for(var _0x2e7dx9=0;_0x2e7dx9< 15;_0x2e7dx9++){if($(_0x2880[88]+ crossDivId[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]=== 0){$(_0x2880[88]+ _0x2e7dx13)[_0x2880[91]]($(_0x2880[88]+ crossDivId[_0x2e7dx9]));break}}}else {if(_0x2e7dxf=== _0x2880[1]){for(var _0x2e7dx9=15;_0x2e7dx9< crossDivId[_0x2880[79]];_0x2e7dx9++){if($(_0x2880[88]+ crossDivId[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]=== 0){$(_0x2880[88]+ _0x2e7dx13)[_0x2880[91]]($(_0x2880[88]+ crossDivId[_0x2e7dx9]));break}}}}}$(_0x2880[104])[_0x2880[95]](function(){var _0x2e7dx11=$(this)[_0x2880[83]](_0x2880[82]);if(($(_0x2880[88]+ _0x2e7dx11)[_0x2880[87]](_0x2880[103]))&& (!_0x2e7dx11[_0x2880[90]](_0x2880[89]))){$(_0x2880[88]+ ChessObject[_0x2880[92]])[_0x2880[91]](_0x2880[88]+ _0x2e7dx11);removeCross();removePath();findTurn()}});function findName(_0x2e7dx13){var _0x2e7dx14=_0x2e7dx13[_0x2880[98]](_0x2880[97]);if(turn=== ChessObject[_0x2880[85]]){switch(_0x2e7dx14[2]){case _0x2880[107]:ChessObject[_0x2880[105]]= _0x2880[106];pawnPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]]);break;case _0x2880[109]:ChessObject[_0x2880[105]]= _0x2880[108];rookPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]]);break;case _0x2880[1]:ChessObject[_0x2880[105]]= _0x2880[110];bishopPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]]);break;case _0x2880[112]:ChessObject[_0x2880[105]]= _0x2880[111];knightPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]]);break;case _0x2880[89]:ChessObject[_0x2880[105]]= _0x2880[89];kingPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]]);break;case _0x2880[114]:ChessObject[_0x2880[105]]= _0x2880[113];queenPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]],_0x2880[113]);break}}else {if((turn=== _0x2880[78])&& (checkCross()[_0x2880[79]]=== 0)&& (checkPath()[_0x2880[79]]=== 0)){alert(_0x2880[115])}else {if((turn=== _0x2880[1])&& (checkCross()[_0x2880[79]]=== 0)&& (checkPath()[_0x2880[79]]=== 0)){alert(_0x2880[116])}}}}function pawnPath(_0x2e7dx19,_0x2e7dxf,_0x2e7dx1a){if(_0x2e7dx1a!== _0x2880[117]){removeCross();removePath()};var _0x2e7dx8=0;if((_0x2e7dx19!== null)&& (_0x2e7dx19!== undefined)){var _0x2e7dx1b=_0x2e7dx19[_0x2880[118]](0,1);var _0x2e7dx1c=_0x2e7dx19[_0x2880[118]](1,1);var _0x2e7dx1d=getXIndex(_0x2e7dx1b);var _0x2e7dx1e=getYIndex(_0x2e7dx1c);if(_0x2e7dxf=== _0x2880[78]){for(var _0x2e7dxa=0;_0x2e7dxa< row[_0x2880[79]];_0x2e7dxa++){if((_0x2e7dx1c=== _0x2880[9])){if($(_0x2880[88]+ _0x2e7dx1b+ _0x2880[10])[_0x2880[102]]()[_0x2880[79]]=== 0){$(_0x2880[88]+ _0x2e7dx1b+ _0x2880[10])[_0x2880[119]](_0x2880[103]);if($(_0x2880[88]+ _0x2e7dx1b+ _0x2880[11])[_0x2880[102]]()[_0x2880[79]]=== 0){$(_0x2880[88]+ _0x2e7dx1b+ _0x2880[11])[_0x2880[119]](_0x2880[103])}}}else {var _0x2e7dx1f=$(_0x2880[96])[_0x2880[83]](_0x2880[82]);if((_0x2e7dx1f!== null)&& (_0x2e7dx1f!== undefined)){if((_0x2e7dx8< 1)&& ($(_0x2880[88]+ _0x2e7dx1b+ (row[_0x2e7dx1e+ 1]))[_0x2880[102]]()[_0x2880[79]]=== 0)){$(_0x2880[88]+ _0x2e7dx1b+ (row[_0x2e7dx1e+ 1]))[_0x2880[119]](_0x2880[103]);removeCross();_0x2e7dx8++}}};if($(_0x2880[88]+ col[_0x2e7dx1d+ 1]+ row[_0x2e7dx1e+ 1])[_0x2880[102]]()[_0x2880[79]]> 0){var _0x2e7dx13=$(_0x2880[88]+ col[_0x2e7dx1d+ 1]+ row[_0x2e7dx1e+ 1])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]);var _0x2e7dxf=checkTeam(_0x2e7dx13);if(_0x2e7dxf=== _0x2880[1]){$(_0x2880[88]+ col[_0x2e7dx1d+ 1]+ row[_0x2e7dx1e+ 1])[_0x2880[119]](_0x2880[86]);removePath()}};if($(_0x2880[88]+ col[_0x2e7dx1d- 1]+ row[_0x2e7dx1e+ 1])[_0x2880[102]]()[_0x2880[79]]> 0){var _0x2e7dx13=$(_0x2880[88]+ col[_0x2e7dx1d- 1]+ row[_0x2e7dx1e+ 1])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]);var _0x2e7dxf=checkTeam(_0x2e7dx13);if(_0x2e7dxf=== _0x2880[1]){$(_0x2880[88]+ col[_0x2e7dx1d- 1]+ row[_0x2e7dx1e+ 1])[_0x2880[119]](_0x2880[86])}}}}else {for(var _0x2e7dxa=row[_0x2880[79]];_0x2e7dxa> 0;_0x2e7dxa--){if(_0x2e7dx1c=== _0x2880[14]){if($(_0x2880[88]+ _0x2e7dx1b+ _0x2880[13])[_0x2880[102]]()[_0x2880[79]]=== 0){$(_0x2880[88]+ _0x2e7dx1b+ _0x2880[13])[_0x2880[119]](_0x2880[103]);if($(_0x2880[88]+ _0x2e7dx1b+ _0x2880[12])[_0x2880[102]]()[_0x2880[79]]=== 0){$(_0x2880[88]+ _0x2e7dx1b+ _0x2880[12])[_0x2880[119]](_0x2880[103]);removeCross()}}}else {var _0x2e7dx1f=$(_0x2880[96])[_0x2880[83]](_0x2880[82]);if((_0x2e7dx1f!== null)&& (_0x2e7dx1f!== undefined)){if((_0x2e7dx8< 1)&& ($(_0x2880[88]+ _0x2e7dx1b+ (row[_0x2e7dx1e- 1]))[_0x2880[102]]()[_0x2880[79]]=== 0)){$(_0x2880[88]+ _0x2e7dx1b+ (row[_0x2e7dx1e- 1]))[_0x2880[119]](_0x2880[103]);_0x2e7dx8++}}};if($(_0x2880[88]+ col[_0x2e7dx1d+ 1]+ row[_0x2e7dx1e- 1])[_0x2880[102]]()[_0x2880[79]]> 0){var _0x2e7dx13=$(_0x2880[88]+ col[_0x2e7dx1d+ 1]+ row[_0x2e7dx1e- 1])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]);var _0x2e7dxf=checkTeam(_0x2e7dx13);if(_0x2e7dxf=== _0x2880[78]){$(_0x2880[88]+ col[_0x2e7dx1d+ 1]+ row[_0x2e7dx1e- 1])[_0x2880[119]](_0x2880[86]);removePath()}};if($(_0x2880[88]+ col[_0x2e7dx1d- 1]+ row[_0x2e7dx1e- 1])[_0x2880[102]]()[_0x2880[79]]> 0){var _0x2e7dx13=$(_0x2880[88]+ col[_0x2e7dx1d- 1]+ row[_0x2e7dx1e- 1])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]);var _0x2e7dxf=checkTeam(_0x2e7dx13);if(_0x2e7dxf=== _0x2880[78]){$(_0x2880[88]+ col[_0x2e7dx1d- 1]+ row[_0x2e7dx1e- 1])[_0x2880[119]](_0x2880[86])}}}}}}function rookPath(_0x2e7dx19,_0x2e7dxf,_0x2e7dx1a){if(_0x2e7dx1a!== _0x2880[113]){removeCross();removePath()};var _0x2e7dx21=[];var _0x2e7dx22=[];var _0x2e7dx23=[];var _0x2e7dx1f=$(_0x2880[96])[_0x2880[83]](_0x2880[82]);if((_0x2e7dx1f!== null)&& (_0x2e7dx1f!== undefined)){if((_0x2e7dx19!== null)&& (_0x2e7dx19!== undefined)){var _0x2e7dx1b=_0x2e7dx19[_0x2880[118]](0,1);var _0x2e7dx1c=_0x2e7dx19[_0x2880[118]](1,1);var _0x2e7dx1d=getXIndex(_0x2e7dx1b);var _0x2e7dx1e=getYIndex(_0x2e7dx1c);for(var _0x2e7dx9=_0x2e7dx1d+ 1;_0x2e7dx9< row[_0x2880[79]];_0x2e7dx9++){if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[83]](_0x2880[82]))};if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[83]](_0x2880[82]));break}}}else {break}}};for(var _0x2e7dx9=_0x2e7dx1d- 1;_0x2e7dx9>  -1;_0x2e7dx9--){if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[83]](_0x2880[82]))};if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e])[_0x2880[83]](_0x2880[82]));break}}}else {break}}};for(var _0x2e7dx9=_0x2e7dx1e+ 1;_0x2e7dx9< col[_0x2880[79]];_0x2e7dx9++){if($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[83]](_0x2880[82]))};if($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[83]](_0x2880[82]));break}}}else {break}}};for(var _0x2e7dx9=_0x2e7dx1e- 1;_0x2e7dx9>  -1;_0x2e7dx9--){if($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[83]](_0x2880[82]))};if($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx1d]+ row[_0x2e7dx9])[_0x2880[83]](_0x2880[82]));break}}}else {break}}}};if(_0x2e7dx1a!== _0x2880[117]){colorCrossPath(_0x2e7dx22);colorPath(_0x2e7dx21)}else {return _0x2e7dx23}}}function bishopPath(_0x2e7dx19,_0x2e7dxf,_0x2e7dx1a){if(_0x2e7dx1a!== _0x2880[113]){removeCross();removePath()};var _0x2e7dx21=[];var _0x2e7dx22=[];var _0x2e7dx23=[];var _0x2e7dx1f=$(_0x2880[96])[_0x2880[83]](_0x2880[82]);if((_0x2e7dx1f!== null)&& (_0x2e7dx1f!== undefined)){if((_0x2e7dx19!== null)&& (_0x2e7dx19!== undefined)){var _0x2e7dx1b=_0x2e7dx19[_0x2880[118]](0,1);var _0x2e7dx1c=_0x2e7dx19[_0x2880[118]](1,1);var _0x2e7dx1d=getXIndex(_0x2e7dx1b);var _0x2e7dx1e=getYIndex(_0x2e7dx1c);var _0x2e7dx8=1;for(var _0x2e7dx9=_0x2e7dx1d+ 1;_0x2e7dx9< col[_0x2880[79]];_0x2e7dx9++){if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[83]](_0x2880[82]))};if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}}}else {break}};_0x2e7dx8++};_0x2e7dx8= 1;for(var _0x2e7dx9=_0x2e7dx1d- 1;_0x2e7dx9>  -1;_0x2e7dx9--){if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[83]](_0x2880[82]))};if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e+ _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}}}else {break}};_0x2e7dx8++};_0x2e7dx8= 1;for(var _0x2e7dx9=_0x2e7dx1d+ 1;_0x2e7dx9< row[_0x2880[79]];_0x2e7dx9++){if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]));if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}}}else {break}}else {_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]))};_0x2e7dx8++};_0x2e7dx8= 1;for(var _0x2e7dx9=_0x2e7dx1d- 1;_0x2e7dx9>  -1;_0x2e7dx9--){if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]));if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}else {if($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]));break}}}else {break}}else {_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ col[_0x2e7dx9]+ row[_0x2e7dx1e- _0x2e7dx8])[_0x2880[83]](_0x2880[82]))};_0x2e7dx8++}}};if(_0x2e7dx1a=== _0x2880[113]){var _0x2e7dx25=[_0x2e7dx22,_0x2e7dx21];return _0x2e7dx25}else {if(_0x2e7dx1a!== _0x2880[117]){colorCrossPath(_0x2e7dx22);colorPath(_0x2e7dx21)}else {return _0x2e7dx23}}}function queenPath(_0x2e7dx19,_0x2e7dxf,_0x2e7dx1a){rookPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]],_0x2e7dx1a);bishopPath(ChessObject[_0x2880[93]],ChessObject[_0x2880[85]],_0x2e7dx1a)}function kingPath(_0x2e7dx19,_0x2e7dxf,_0x2e7dx1a){if(_0x2e7dx1a!== _0x2880[117]){removeCross();removePath()};var _0x2e7dx21=[];var _0x2e7dx22=[];var _0x2e7dx23=[];var _0x2e7dx1f=$(_0x2880[96])[_0x2880[83]](_0x2880[82]);if((_0x2e7dx1f!== null)&& (_0x2e7dx1f!== undefined)){if((_0x2e7dx19!== null)&& (_0x2e7dx19!== undefined)){var _0x2e7dx1b=_0x2e7dx19[_0x2880[118]](0,1);var _0x2e7dx1c=_0x2e7dx19[_0x2880[118]](1,1);var _0x2e7dx1d=getXIndex(_0x2e7dx1b);var _0x2e7dx1e=getYIndex(_0x2e7dx1c);for(var _0x2e7dx9=0;_0x2e7dx9< divIds[_0x2880[79]];_0x2e7dx9++){var _0x2e7dx28=divIds[_0x2e7dx9][_0x2880[118]](0,1);var _0x2e7dx29=divIds[_0x2e7dx9][_0x2880[118]](1,1)};var _0x2e7dx2a=getXIndex(_0x2e7dx28);var _0x2e7dx2b=getYIndex(_0x2e7dx29);if((Math[_0x2880[121]](_0x2e7dx2a- _0x2e7dx1d)<= 1)&& (Math[_0x2880[121]](_0x2e7dx2b- _0x2e7dx1e)<= 1)){if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[83]](_0x2880[82]))}else {if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[83]](_0x2880[82]))}}}};if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[83]](_0x2880[82]))}}};if(_0x2e7dx1a!== _0x2880[117]){colorCrossPath(_0x2e7dx22);colorPath(_0x2e7dx21)}else {return _0x2e7dx23}}}function knightPath(_0x2e7dx19,_0x2e7dxf,_0x2e7dx1a){removeCross();removePath();var _0x2e7dx21=[];var _0x2e7dx22=[];var _0x2e7dx23=[];var _0x2e7dx1f=$(_0x2880[96])[_0x2880[83]](_0x2880[82]);if((_0x2e7dx1f!== null)&& (_0x2e7dx1f!== undefined)){if((_0x2e7dx19!== null)&& (_0x2e7dx19!== undefined)){var _0x2e7dx1b=_0x2e7dx19[_0x2880[118]](0,1);var _0x2e7dx1c=_0x2e7dx19[_0x2880[118]](1,1);var _0x2e7dx1d=getXIndex(_0x2e7dx1b);var _0x2e7dx1e=getYIndex(_0x2e7dx1c);for(var _0x2e7dx9=0;_0x2e7dx9< divIds[_0x2880[79]];_0x2e7dx9++){var _0x2e7dx28=divIds[_0x2e7dx9][_0x2880[118]](0,1);var _0x2e7dx29=divIds[_0x2e7dx9][_0x2880[118]](1,1);var _0x2e7dx2a=getXIndex(_0x2e7dx28);var _0x2e7dx2b=getYIndex(_0x2e7dx29);if(((Math[_0x2880[121]](_0x2e7dx1d- _0x2e7dx2a)=== 1)&& ((Math[_0x2880[121]](_0x2e7dx1e- _0x2e7dx2b))=== 2))| (((Math[_0x2880[121]](_0x2e7dx1d- _0x2e7dx2a))=== 2)&& ((Math[_0x2880[121]](_0x2e7dx1e- _0x2e7dx2b))=== 1))){if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]> 0){if(checkTeam($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82]))!== _0x2e7dxf){if(_0x2e7dx1a!== _0x2880[117]){_0x2e7dx22[_0x2880[120]]($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[83]](_0x2880[82]))}else {if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[83]](_0x2880[82])[_0x2880[90]](_0x2880[89])){_0x2e7dx23[_0x2880[120]]($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[83]](_0x2880[82]));break}}}};if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[102]]()[_0x2880[79]]=== 0){_0x2e7dx21[_0x2880[120]]($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[83]](_0x2880[82]))}}}};if(_0x2e7dx1a!== _0x2880[117]){colorCrossPath(_0x2e7dx22);colorPath(_0x2e7dx21)}else {return _0x2e7dx23}}}function colorPath(_0x2e7dx2e){for(var _0x2e7dx9=0;_0x2e7dx9< _0x2e7dx2e[_0x2880[79]];_0x2e7dx9++){$(_0x2880[88]+ _0x2e7dx2e[_0x2e7dx9])[_0x2880[119]](_0x2880[103])}}function colorCrossPath(_0x2e7dx30){for(var _0x2e7dx9=0;_0x2e7dx9< _0x2e7dx30[_0x2880[79]];_0x2e7dx9++){$(_0x2880[88]+ _0x2e7dx30[_0x2e7dx9])[_0x2880[119]](_0x2880[86])}}function getXIndex(_0x2e7dx1b){for(var _0x2e7dx9=0;_0x2e7dx9< col[_0x2880[79]];_0x2e7dx9++){if(_0x2e7dx1b=== col[_0x2e7dx9]){return _0x2e7dx9}}}function getYIndex(_0x2e7dx1c){for(var _0x2e7dx9=0;_0x2e7dx9< row[_0x2880[79]];_0x2e7dx9++){if(_0x2e7dx1c=== row[_0x2e7dx9]){return _0x2e7dx9}}}function removePath(){for(var _0x2e7dx9=0;_0x2e7dx9< divIds[_0x2880[79]];_0x2e7dx9++){$(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[122]](_0x2880[103])}}function removeCross(){for(var _0x2e7dx9=0;_0x2e7dx9< divIds[_0x2880[79]];_0x2e7dx9++){$(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[122]](_0x2880[86])}}function checkCross(){var _0x2e7dx8=0;var _0x2e7dx22= new Array();for(var _0x2e7dx9=0;_0x2e7dx9< divIds[_0x2880[79]];_0x2e7dx9++){if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[87]](_0x2880[86])){_0x2e7dx22[_0x2880[120]](divIds[_0x2e7dx9]);_0x2e7dx8++}};return _0x2e7dx22}function checkPath(){var _0x2e7dx8=0;var _0x2e7dx21= new Array();for(var _0x2e7dx9=0;_0x2e7dx9< divIds[_0x2880[79]];_0x2e7dx9++){if($(_0x2880[88]+ divIds[_0x2e7dx9])[_0x2880[87]](_0x2880[86])){_0x2e7dx21[_0x2880[120]](divIds[_0x2e7dx9]);_0x2e7dx8++}};return _0x2e7dx21}function findTurn(){if(turn=== _0x2880[78]){turn= _0x2880[1]}else {turn= _0x2880[78]}}
+var checkMateStatus = false;
+
+var divIds = [];
+
+var col = ["a", "b", "c", "d", "e", "f", "g", "h"];
+
+var row = ["1", "2", "3", "4", "5", "6", "7", "8"];
+
+var chessPiecesId =
+    ["b-l-r", "b-l-k", "b-l-b", "b-a-queen", "b-a-king", "b-r-b", "b-r-k", "b-r-r",
+        "b-1-p", "b-2-p", "b-3-p", "b-4-p", "b-5-p", "b-6-p", "b-7-p", "b-8-p",
+        "w-1-p", "w-2-p", "w-3-p", "w-4-p", "w-5-p", "w-6-p", "w-7-p", "w-8-p",
+        "w-l-r", "w-l-k", "w-l-b", "w-a-king", "w-a-queen", "w-r-b", "w-r-k", "w-r-r"];
+
+var crossDivId = ["cr1", "cr2", "cr3", "cr4", "cr5", "cr6", "cr7", "cr8", "cr9", "cr10", "cr11", "cr12", "cr13", "cr14", "cr15",
+    "cr17", "cr18", "cr19", "cr20", "cr21", "cr22", "cr23", "cr24", "cr25", "cr26", "cr27", "cr28", "cr29", "cr30", "cr31"];
+
+var turn = "w";
+
+$(document).ready(function () {
+    var count = 0;
+    for (var i = 0; i < col.length; i++) {
+        for (var j = 0; j < row.length; j++) {
+            var tempId = col[i] + row[j];
+            divIds[count] = tempId;
+            count++;
+        }
+    }
+});
+
+var ChessObject = {
+    team: "",
+    chessmanId: "",
+    chessmanParentIdv: ""
+};
+
+$("div > div > div > div > div > div > div").click(function () {
+    var chessman = $(this).attr("id");
+    var chessmanParent = $(this).parent().attr("id");
+    var team = checkTeam(chessman);
+
+    if (!checkMateStatus) {
+        if ((checkCross().length > 0) && (team !== ChessObject.team)) {
+            var selectedParent = $(this).parent().attr("id");
+            var selected = $(this).attr("id");
+            var team = checkTeam(selected);
+
+            if ($("#" + selectedParent).hasClass("cross") && (!selected.includes("king"))) {
+                moveToCrossDivs(chessman, team);
+                crossedChessPiece(selected);
+                $("#" + ChessObject.chessmanId).appendTo("#" + selectedParent);
+                moveToCrossDivs(chessman, team);
+                removeCross();
+                removePath();
+                findTurn();
+            }
+        } else {
+            removeCross();
+            removePath();
+            ChessObject.chessmanId = chessman;
+            ChessObject.chessmanParentId = chessmanParent;
+            ChessObject.team = checkTeam(ChessObject.chessmanId);
+            findName(ChessObject.chessmanId);
+        }
+    } else {
+        alert("Game Over!");
+    }
+
+});
+
+function checkTeam(id) {
+    var details = id.split("-");
+    switch (details[0]) {
+        case "b":
+            return "b";
+        case "w":
+            return "w";
+    }
+}
+
+function crossedChessPiece(id) {
+    for (var i = 0; i < chessPiecesId.length; i++) {
+        if (id === chessPiecesId[i]) {
+            chessPiecesId.splice(i, 1);
+            if (chessPiecesId[i].includes("w")) {
+                $("#" + id).toggleClass('rotate');
+            }
+            break;
+        }
+    }
+}
+
+function moveToCrossDivs(id, team) {
+    if (team === "w") {
+        for (var i = 0; i < 15; i++) {
+            if ($("#" + crossDivId[i]).children().length === 0) {
+                $("#" + id).appendTo($("#" + crossDivId[i]));
+                break;
+            }
+        }
+
+    } else if (team === "b") {
+        for (var i = 15; i < crossDivId.length; i++) {
+            if ($("#" + crossDivId[i]).children().length === 0) {
+                $("#" + id).appendTo($("#" + crossDivId[i]));
+                break;
+            }
+        }
+    }
+
+}
+
+$("div > div > div > div > div > div").click(function () {
+
+    var selected = $(this).attr("id");
+    if (($("#" + selected).hasClass("path")) && (!selected.includes("king"))) {
+        $("#" + ChessObject.chessmanId).appendTo("#" + selected);
+        removeCross();
+        removePath();
+        findTurn();
+    }
+
+});
+
+
+function findName(id) {
+    var details = id.split("-");
+    if (turn === ChessObject.team) {
+        switch (details[2]) {
+            case "p":
+                ChessObject.chessman = "pawn";
+                pawnPath(ChessObject.chessmanParentId, ChessObject.team);
+                break;
+            case "r" :
+                ChessObject.chessman = "rook";
+                rookPath(ChessObject.chessmanParentId, ChessObject.team);
+                break;
+            case "b":
+                ChessObject.chessman = "bishop";
+                bishopPath(ChessObject.chessmanParentId, ChessObject.team);
+                break;
+            case "k":
+                ChessObject.chessman = "knight";
+                knightPath(ChessObject.chessmanParentId, ChessObject.team);
+                break;
+            case "king":
+                ChessObject.chessman = "king";
+                kingPath(ChessObject.chessmanParentId, ChessObject.team);
+                break;
+            case "q":
+                ChessObject.chessman = "queen";
+                queenPath(ChessObject.chessmanParentId, ChessObject.team, "queen");
+                break;
+        }
+
+    } else {
+        if ((turn === "w") && (checkCross().length === 0) && (checkPath().length === 0)) {
+            alert("White's Turn");
+        } else if ((turn === "b") && (checkCross().length === 0) && (checkPath().length === 0)) {
+            alert("Black's Turn");
+        }
+    }
+}
+
+function pawnPath(currentPos, team, from) {
+    if (from !== "check") {
+        removeCross();
+        removePath();
+    }
+    var count = 0;
+    if ((currentPos !== null) && (currentPos !== undefined)) {
+
+        var x = currentPos.substr(0, 1);
+        var y = currentPos.substr(1, 1);
+
+        var xIndex = getXIndex(x);
+        var yIndex = getYIndex(y);
+
+        if (team === "w") {
+            for (var j = 0; j < row.length; j++) {
+                if ((y === "2")) {
+                    if ($("#" + x + "3").children().length === 0) {
+                        $("#" + x + "3").addClass("path");
+                        if ($("#" + x + "4").children().length === 0) {
+                            $("#" + x + "4").addClass("path");
+                        }
+                    }
+                } else {
+                    var content = $("div > div > div > div > div > div > div").attr("id");
+                    if ((content !== null) && (content !== undefined)) {
+                        if ((count < 1) && ($("#" + x + (row[yIndex + 1])).children().length === 0)) {
+                            $("#" + x + (row[yIndex + 1])).addClass("path");
+                            removeCross();
+                            count++;
+                        }
+                    }
+                }
+
+                if ($("#" + col[xIndex + 1] + row[yIndex + 1]).children().length > 0) {
+                    var id = $("#" + col[xIndex + 1] + row[yIndex + 1]).children().attr("id");
+                    var team = checkTeam(id);
+                    if (team === "b") {
+                        $("#" + col[xIndex + 1] + row[yIndex + 1]).addClass("cross");
+                        removePath();
+                    }
+                }
+                if ($("#" + col[xIndex - 1] + row[yIndex + 1]).children().length > 0) {
+                    var id = $("#" + col[xIndex - 1] + row[yIndex + 1]).children().attr("id");
+                    var team = checkTeam(id);
+                    if (team === "b") {
+                        $("#" + col[xIndex - 1] + row[yIndex + 1]).addClass("cross");
+                    }
+                }
+            }
+
+        } else {
+            for (var j = row.length; j > 0; j--) {
+                if (y === "7") {
+                    if ($("#" + x + "6").children().length === 0) {
+                        $("#" + x + "6").addClass("path");
+                        if ($("#" + x + "5").children().length === 0) {
+                            $("#" + x + "5").addClass("path");
+                            removeCross();
+                        }
+                    }
+                } else {
+                    var content = $("div > div > div > div > div > div > div").attr("id");
+                    if ((content !== null) && (content !== undefined)) {
+                        if ((count < 1) && ($("#" + x + (row[yIndex - 1])).children().length === 0)) {
+                            $("#" + x + (row[yIndex - 1])).addClass("path");
+                            count++;
+                        }
+                    }
+                }
+                if ($("#" + col[xIndex + 1] + row[yIndex - 1]).children().length > 0) {
+                    var id = $("#" + col[xIndex + 1] + row[yIndex - 1]).children().attr("id");
+                    var team = checkTeam(id);
+                    if (team === "w") {
+                        $("#" + col[xIndex + 1] + row[yIndex - 1]).addClass("cross");
+                        removePath();
+                    }
+                }
+                if ($("#" + col[xIndex - 1] + row[yIndex - 1]).children().length > 0) {
+                    var id = $("#" + col[xIndex - 1] + row[yIndex - 1]).children().attr("id");
+                    var team = checkTeam(id);
+                    if (team === "w") {
+                        $("#" + col[xIndex - 1] + row[yIndex - 1]).addClass("cross");
+                    }
+                }
+            }
+        }
+    }
+}
+
+function rookPath(currentPos, team, from) {
+
+    if (from !== "queen") {
+        removeCross();
+        removePath();
+    }
+
+    var pathArray = [];
+    var crossArray = [];
+    var check = [];
+    var content = $("div > div > div > div > div > div > div").attr("id");
+
+    if ((content !== null) && (content !== undefined)) {
+        if ((currentPos !== null) && (currentPos !== undefined)) {
+
+            var x = currentPos.substr(0, 1);
+            var y = currentPos.substr(1, 1);
+
+            var xIndex = getXIndex(x);
+            var yIndex = getYIndex(y);
+
+            for (var i = xIndex + 1; i < row.length; i++) {
+
+                if ($("#" + col[i] + row[yIndex]).children().length === 0) {
+                    pathArray.push($("#" + col[i] + row[yIndex]).attr("id"));
+                }
+                if ($("#" + col[i] + row[yIndex]).children().length > 0) {
+                    if (checkTeam($("#" + col[i] + row[yIndex]).children().attr("id")) !== team) {
+
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[i] + row[yIndex]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[i] + row[yIndex]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[i] + row[yIndex]).attr("id"));
+                                break;
+                            }
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+
+            for (var i = xIndex - 1; i > -1; i--) {
+
+                if ($("#" + col[i] + row[yIndex]).children().length === 0) {
+                    pathArray.push($("#" + col[i] + row[yIndex]).attr("id"));
+                }
+                if ($("#" + col[i] + row[yIndex]).children().length > 0) {
+                    if (checkTeam($("#" + col[i] + row[yIndex]).children().attr("id")) !== team) {
+
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[i] + row[yIndex]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[i] + row[yIndex]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[i] + row[yIndex]).attr("id"));
+                                break;
+                            }
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+
+            for (var i = yIndex + 1; i < col.length; i++) {
+
+                if ($("#" + col[xIndex] + row[i]).children().length === 0) {
+                    pathArray.push($("#" + col[xIndex] + row[i]).attr("id"));
+                }
+                if ($("#" + col[xIndex] + row[i]).children().length > 0) {
+
+                    if (checkTeam($("#" + col[xIndex] + row[i]).children().attr("id")) !== team) {
+
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[xIndex] + row[i]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[xIndex] + row[i]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[xIndex] + row[i]).attr("id"));
+                                break;
+                            }
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+
+            for (var i = yIndex - 1; i > -1; i--) {
+                if ($("#" + col[xIndex] + row[i]).children().length === 0) {
+                    pathArray.push($("#" + col[xIndex] + row[i]).attr("id"));
+                }
+                if ($("#" + col[xIndex] + row[i]).children().length > 0) {
+                    if (checkTeam($("#" + col[xIndex] + row[i]).children().attr("id")) !== team) {
+
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[xIndex] + row[i]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[xIndex] + row[i]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[xIndex] + row[i]).attr("id"));
+                                break;
+                            }
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+        }
+        if (from !== "check") {
+            colorCrossPath(crossArray);
+            colorPath(pathArray);
+        } else {
+            return check;
+        }
+    }
+}
+
+function bishopPath(currentPos, team, from) {
+
+    if (from !== "queen") {
+        removeCross();
+        removePath();
+    }
+
+    var pathArray = [];
+    var crossArray = [];
+    var check = [];
+
+    var content = $("div > div > div > div > div > div > div").attr("id");
+
+    if ((content !== null) && (content !== undefined)) {
+        if ((currentPos !== null) && (currentPos !== undefined)) {
+            var x = currentPos.substr(0, 1);
+            var y = currentPos.substr(1, 1);
+
+            var xIndex = getXIndex(x);
+            var yIndex = getYIndex(y);
+
+
+            var count = 1;
+            for (var i = xIndex + 1; i < col.length; i++) {
+
+                if ($("#" + col[i] + row[yIndex + count]).children().length === 0) {
+                    pathArray.push($("#" + col[i] + row[yIndex + count]).attr("id"));
+                }
+                if ($("#" + col[i] + row[yIndex + count]).children().length > 0) {
+                    if (checkTeam($("#" + col[i] + row[yIndex + count]).children().attr("id")) !== team) {
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[i] + row[yIndex + count]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[i] + row[yIndex + count]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[i] + row[yIndex + count]).attr("id"));
+                                break;
+                            }
+                        }
+
+                    } else {
+                        break;
+                    }
+                }
+                count++;
+            }
+            count = 1;
+
+            for (var i = xIndex - 1; i > -1; i--) {
+
+                if ($("#" + col[i] + row[yIndex + count]).children().length === 0) {
+                    pathArray.push($("#" + col[i] + row[yIndex + count]).attr("id"));
+                }
+                if ($("#" + col[i] + row[yIndex + count]).children().length > 0) {
+                    if (checkTeam($("#" + col[i] + row[yIndex + count]).children().attr("id")) !== team) {
+                        //crossArray.push($("#" + col[i] + row[yIndex + count]).attr("id"));
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[i] + row[yIndex + count]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[i] + row[yIndex + count]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[i] + row[yIndex + count]).attr("id"));
+                                break;
+                            }
+                        }
+                    } else {
+                        break;
+                    }
+                }
+                count++;
+            }
+            count = 1;
+
+            for (var i = xIndex + 1; i < row.length; i++) {
+                if ($("#" + col[i] + row[yIndex - count]).children().length > 0) {
+                    if (checkTeam($("#" + col[i] + row[yIndex - count]).children().attr("id")) !== team) {
+                        crossArray.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[i] + row[yIndex - count]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                                break;
+                            }
+                        }
+                    } else {
+                        break;
+                    }
+                } else {
+                    pathArray.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                }
+                count++;
+            }
+
+            count = 1;
+
+            for (var i = xIndex - 1; i > -1; i--) {
+                if ($("#" + col[i] + row[yIndex - count]).children().length > 0) {
+                    if (checkTeam($("#" + col[i] + row[yIndex - count]).children().attr("id")) !== team) {
+                        crossArray.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                        if (from !== "check") {
+                            crossArray.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                            break;
+                        } else {
+                            if ($("#" + col[i] + row[yIndex - count]).children().attr("id").includes("king")) {
+                                check.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                                break;
+                            }
+                        }
+                    } else {
+                        break;
+                    }
+                } else {
+                    pathArray.push($("#" + col[i] + row[yIndex - count]).attr("id"));
+                }
+                count++;
+            }
+        }
+    }
+    if (from === "queen") {
+        var detailsArray = [crossArray, pathArray];
+        return detailsArray;
+
+    } else {
+        if (from !== "check") {
+            colorCrossPath(crossArray);
+            colorPath(pathArray);
+        } else {
+            return check;
+        }
+    }
+}
+
+function queenPath(currentPos, team, from) {
+    rookPath(ChessObject.chessmanParentId, ChessObject.team, from);
+    bishopPath(ChessObject.chessmanParentId, ChessObject.team, from);
+}
+
+function kingPath(currentPos, team, from) {
+    removeCross();
+    removePath();
+    var pathArray = [];
+    var crossArray = [];
+    var check = [];
+
+    var content = $("div > div > div > div > div > div > div").attr("id");
+
+    if ((content !== null) && (content !== undefined)) {
+        if ((currentPos !== null) && (currentPos !== undefined)) {
+            var x = currentPos.substr(0, 1);
+            var y = currentPos.substr(1, 1);
+            var xIndex = getXIndex(x);
+            var yIndex = getYIndex(y);
+            for (var i = 0; i < divIds.length; i++) {
+                var tempX = divIds[i].substr(0, 1);
+                var tempY = divIds[i].substr(1, 1);
+                var newX = getXIndex(tempX);
+                var newY = getYIndex(tempY);
+
+                if ((Math.abs(newX - xIndex) <= 1) && (Math.abs(newY - yIndex) <= 1)) {
+                    if ($("#" + divIds[i]).children().length > 0) {
+                        if (checkTeam($("#" + divIds[i]).children().attr("id")) !== team) {
+                            if (from !== "check") {
+                                crossArray.push($("#" + divIds[i]).attr("id"));
+
+                            } else {
+                                if ($("#" + divIds[i]).children().attr("id").includes("king")) {
+                                    check.push($("#" + divIds[i]).attr("id"));
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    if ($("#" + divIds[i]).children().length === 0) {
+                        pathArray.push($("#" + divIds[i]).attr("id"));
+                    }
+                }
+            }
+            if (from !== "check") {
+                colorCrossPath(crossArray);
+                colorPath(pathArray);
+            } else {
+                return check;
+            }
+        }
+    }
+}
+$(".images").addClass("images-responsive");
+
+function knightPath(currentPos, team, from) {
+    removeCross();
+    removePath();
+
+    var pathArray = [];
+    var crossArray = [];
+    var check = [];
+
+    var content = $("div > div > div > div > div > div > div").attr("id");
+
+    if ((content !== null) && (content !== undefined)) {
+        if ((currentPos !== null) && (currentPos !== undefined)) {
+            var x = currentPos.substr(0, 1);
+            var y = currentPos.substr(1, 1);
+
+            var xIndex = getXIndex(x);
+            var yIndex = getYIndex(y);
+
+            for (var i = 0; i < divIds.length; i++) {
+                var tempX = divIds[i].substr(0, 1);
+                var tempY = divIds[i].substr(1, 1);
+
+                var newX = getXIndex(tempX);
+                var newY = getYIndex(tempY);
+
+                if (((Math.abs(xIndex - newX) === 1) && ((Math.abs(yIndex - newY)) === 2)) | (((Math.abs(xIndex - newX)) === 2) && ((Math.abs(yIndex - newY)) === 1))) {
+                    if ($("#" + divIds[i]).children().length > 0) {
+                        if (checkTeam($("#" + divIds[i]).children().attr("id")) !== team) {
+                            if (from !== "check") {
+                                crossArray.push($("#" + divIds[i]).attr("id"));
+
+                            } else {
+                                if ($("#" + divIds[i]).children().attr("id").includes("king")) {
+                                    check.push($("#" + divIds[i]).attr("id"));
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    if ($("#" + divIds[i]).children().length === 0) {
+                        pathArray.push($("#" + divIds[i]).attr("id"));
+                    }
+                }
+            }
+        }
+        if (from !== "check") {
+            colorCrossPath(crossArray);
+            colorPath(pathArray);
+        } else {
+            return check;
+        }
+
+    }
+}
+
+function colorPath(path) {
+    for (var i = 0; i < path.length; i++) {
+        $("#" + path[i]).addClass("path");
+    }
+}
+
+function colorCrossPath(cross) {
+    for (var i = 0; i < cross.length; i++) {
+        $("#" + cross[i]).addClass("cross");
+    }
+}
+
+function getXIndex(x) {
+    for (var i = 0; i < col.length; i++) {
+        if (x === col[i]) {
+            return i;
+        }
+    }
+}
+
+function getYIndex(y) {
+    for (var i = 0; i < row.length; i++) {
+        if (y === row[i]) {
+            return i;
+        }
+    }
+}
+
+function removePath() {
+    for (var i = 0; i < divIds.length; i++) {
+        $("#" + divIds[i]).removeClass("path");
+    }
+}
+
+
+function removeCross() {
+    for (var i = 0; i < divIds.length; i++) {
+        $("#" + divIds[i]).removeClass("cross");
+    }
+}
+
+function checkCross() {
+    var count = 0;
+    var crossArray = new Array();
+    for (var i = 0; i < divIds.length; i++) {
+        if ($("#" + divIds[i]).hasClass("cross")) {
+            crossArray.push(divIds[i]);
+            count++;
+        }
+    }
+    return crossArray;
+}
+
+function checkPath() {
+
+    var count = 0;
+    var pathArray = new Array();
+    for (var i = 0; i < divIds.length; i++) {
+        if ($("#" + divIds[i]).hasClass("cross")) {
+            pathArray.push(divIds[i]);
+            count++;
+        }
+    }
+    return pathArray;
+}
+
+function findTurn() {
+    if (turn === "w") {
+        turn = "b";
+    } else {
+        turn = "w";
+    }
+}

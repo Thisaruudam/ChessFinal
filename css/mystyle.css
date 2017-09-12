@@ -9,6 +9,11 @@ body{
     top: 0;
     text-align: center;
 }
+.images:hover{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
 .div-sizes{
     width: 70px !important;
     height: 70px !important;
@@ -25,6 +30,15 @@ body{
     box-shadow: inset 0px 0px 30px 10px darkred;
 }
 
+span{
+    color: white;
+    font-size: 25px;
+}
+
+#alert{
+    visibility: hidden;
+}
+
 .black{
     background-image:url("../images/classic-piece-black.png");
     width:70px;
@@ -33,6 +47,7 @@ body{
 
 .path{
     box-shadow: inset 0px 0px 30px 10px #d58512;
+    cursor: pointer;
 }
 
 div > div > div > div > div > div{
