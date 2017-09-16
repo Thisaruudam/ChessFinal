@@ -17,6 +17,11 @@ var crossDivId = ["cr1", "cr2", "cr3", "cr4", "cr5", "cr6", "cr7", "cr8", "cr9",
 
 var turn = "w";
 
+var crossAudio = $("#crossSound")[0];
+
+var moveAudio = $("#moveSound")[0];
+
+
 $(document).ready(function () {
     var count = 0;
     for (var i = 0; i < col.length; i++) {
@@ -82,9 +87,7 @@ function crossedChessPiece(id) {
     for (var i = 0; i < chessPiecesId.length; i++) {
         if (id === chessPiecesId[i]) {
             chessPiecesId.splice(i, 1);
-            if (chessPiecesId[i].includes("w")) {
-                $("#" + id).toggleClass('rotate');
-            }
+            crossAudio.play();
             break;
         }
     }
@@ -115,6 +118,7 @@ $("div > div > div > div > div > div").click(function () {
     var selected = $(this).attr("id");
     if (($("#" + selected).hasClass("path")) && (!selected.includes("king"))) {
         $("#" + ChessObject.chessmanId).appendTo("#" + selected);
+        moveAudio.play();
         removeCross();
         removePath();
         findTurn();
